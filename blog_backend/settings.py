@@ -99,7 +99,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'dbackend_database',
         'USER': 'dbackend',
-        'PASSWORD': environ.get("DB_PASSWORD"),
+        # 'PASSWORD': environ.get("DB_PASSWORD"),
+        'PASSWORD': '2992003_ahmed',
         'HOST': 'postgresql-dbackend.alwaysdata.net',
         'PORT': '5432',
     }
