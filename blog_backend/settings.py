@@ -54,7 +54,8 @@ REST_FRAMEWORK = {
 CORS_ORIGIN_ALLOW_ALL = False
 CORS_ALLOWED_ORIGINS = [
     'http://127.0.0.1:5173', 
-    'http://localhost:5173', 
+    'http://localhost:5173',
+    'https://blog-frontend-beige-six.vercel.app',
 ]
 
 MIDDLEWARE = [
