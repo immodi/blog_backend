@@ -99,8 +99,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'dbackend_database',
         'USER': 'dbackend',
-        # 'PASSWORD': environ.get("DB_PASSWORD"),
-        'PASSWORD': '2992003_ahmed',
+        'PASSWORD': environ.get("DB_PASSWORD"),
         'HOST': 'postgresql-dbackend.alwaysdata.net',
         'PORT': '5432',
     }
@@ -108,8 +107,7 @@ DATABASES = {
 
 
 # Password validation
-# https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
-
+https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
 AUTH_PASSWORD_VALIDATORS = [
     {
         'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
